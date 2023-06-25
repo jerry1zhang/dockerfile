@@ -147,4 +147,4 @@ RUN set -eux; \
 	fi
 
 EXPOSE 8080
-CMD ["catalina.sh", "run"]
+ENTRYPOINT ["/usr/local/tomcat/bin/catalina.sh" "run"]
